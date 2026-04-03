@@ -43,6 +43,19 @@ Analyze multiple transcripts and return summary counts.
 
 This project was inspired by real specialty pharmacy follow-up workflows where adverse events must be recognized quickly, documented accurately, and sometimes escalated to pharmaceutical manufacturers within strict timelines.
 
+
+```markdown
+## Clinical Relevance
+
+This approach mirrors real-world specialty pharmacy workflows where pharmacists must:
+
+- Identify adverse drug events from patient-reported language
+- Determine severity for regulatory reporting
+- Escalate serious events (e.g., hospitalization, life-threatening symptoms)
+- Document findings for manufacturer and compliance reporting
+
+This project simulates those decision points using rule-based NLP.
+
 ## Future improvements
 
 - Per-symptom severity scoring
