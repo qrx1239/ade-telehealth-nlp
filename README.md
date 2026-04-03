@@ -8,27 +8,26 @@ A clinical NLP prototype built to analyze pharmacist-patient telehealth conversa
 This project was inspired by real specialty pharmacy follow-up workflows where adverse events must be recognized quickly, documented accurately, and sometimes escalated to pharmaceutical manufacturers within strict timelines.
 
 
-```markdown
 ## Clinical Relevance
 
-This approach mirrors real-world specialty pharmacy workflows where pharmacists must:
+This approach mirrors real-world specialty pharmacy workflows:
 
-- Identify adverse drug events from patient-reported language
-- Determine severity for regulatory reporting
-- Escalate serious events (e.g., hospitalization, life-threatening symptoms)
-- Document findings for manufacturer and compliance reporting
+- Identify adverse drug events from patient-reported language  
+- Determine severity for regulatory reporting  
+- Escalate serious events (e.g., hospitalization, life-threatening symptoms)  
+- Document findings for manufacturer and compliance reporting  
 
 This project simulates those decision points using rule-based NLP.
 
 ## What it does
 
-- Detects adverse events from transcript text
-- Handles negation such as “no vomiting”
-- Identifies timing context such as “since starting treatment”
-- Flags medication mentions
-- Stratifies overall severity as mild, moderate, or severe
-- Detects serious adverse event criteria such as ER visits, hospitalization, or life-threatening symptoms
-- Supports batch analysis of multiple transcripts
+- Detects adverse events from transcript text  
+- Handles negation such as "no vomiting"  
+- Identifies timing context such as "since starting treatment"  
+- Flags medication mentions  
+- Stratifies overall severity as mild, moderate, or severe  
+- Detects serious adverse event criteria such as ER visits or hospitalization  
+- Supports batch analysis of multiple transcripts  
 
 ## Example use case
 
